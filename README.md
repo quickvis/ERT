@@ -20,7 +20,33 @@ You can load ground-motion record files from a variety of different file formats
 
 ### PROCESSING
 
-You can add, edit, and delete processing steps and combine them into a data processing pipeline with multiple intermediate data states. Only outward branching of the data processing pipeline is supported. You can pass the dataset through the processing pipeline by changing the current data state. Saving of the processed records in various file formats is supported.
+You can add, edit, and delete processing steps and combine them into a data processing pipeline with multiple intermediate data states. Only outward branching of the data processing pipeline is supported. You can pass the dataset through the processing pipeline by changing the current data state. Saving of the processed records in various file formats is supported. The following signal processing operations, among others, are included:
+
+- Arias Intensity
+- Autocorrelation
+- Frequency Filtering
+- Decimation
+- Detrending
+- Differentiation
+- Division
+- Fast Fourier Transformation
+- Floor Design Spectra Computation
+- FFT to Response Spectrum via Random Vibration Theory
+- FFT to Time Series via Random Vibration Theory
+- Integration
+- Inverse Fast Fourier Transformation
+- Konno Ohmachi Smoothing
+- Multiplication
+- Prefix (Baseline Correction)
+- Random Decrement Signature
+- Resampling
+- Response Spectrum Calculation
+- Sinc Interpolation
+- Spectral Scaling to Target Ordinate
+- Trimming
+- Windowing
+- White Noise Addition
+- Zero Padding
 
 ### VISUALIZATION
 
