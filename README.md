@@ -4,13 +4,11 @@ Last updated: 4 April 2024
 
 ### OVERVIEW
 
-The program/software is meant to only be used by qualified professionals who take full reponsibility for their work, understand how to use this software, and understand that there may be bugs/mistakes. All users take full responsibility for all of their work done with this software. By using this software you agree that you take full responsibility for your work and do not hold us liable or responsible for any mistakes we have made or any consequences which result from such mistakes.
-
 This program is a graphical user interface implimentation of a data processing pipeline with a built-in visualization tool. It is intended to assist with selection, processing, scaling, and review of ground-motion record data. Although it was developed for earthquake time history data, it can be applied to other types of time history data, i.e., it's not just for earthquakes.
 
 The program is able to complete a variety of signal processing procedures such as frequency filtering and windowing; for structural analysis, it is able to compute floor design spectra for analysis of appurtenant structures. An assortment of other functionalities are also included.
 
-This program is under active developement and more features are continuously being added. If you have a feature request or find a mistake/bug, please contact us.
+This program is under active developement and more features are continuously being added. If you have a feature request or find a mistake/bug, please contact us at exploratory.record.toolbox at gmail dot com
 
 ### WORKSPACE
 
@@ -29,6 +27,10 @@ You can add, edit, and delete processing steps and combine them into a data proc
 You can add multiple figures to visualize the ground-motion records at each step throughout the data processing pipeline. These figures can be linked to specific data states and are only updated to the current data state when directed to. You are able to control most of the aesthetic properties of the figures on a figure-by-figure basis.
 
 Saving of figures as static files (e.g., .png) or as interactive files (.html) is allowed. Interactive files can be opened in a web browser and allow for zooming and panning.
+
+### DISCLAIMER
+
+The program/software is meant to only be used by qualified professionals who take full reponsibility for their work, understand how to use this software, and understand that there may be bugs/mistakes. All users take full responsibility for all of their work done with this software. By using this software you agree that you take full responsibility for your work and do not hold us liable or responsible for any mistakes we have made or any consequences which result from such mistakes.
 
 ### ACKNOWLEDGEMENTS
 
@@ -109,26 +111,3 @@ This program makes use of a variety of open source and free projects kindly made
 - [urllib3](https://urllib3.readthedocs.io/en/latest/)
 - [wxPython](https://www.wxpython.org/)
 - [zstandard](https://pypi.org/project/zstandard/)
-  """
-
-unused_txt = """
-
-#### Python packages/libraries
-
-- [obspy](https://docs.obspy.org/)
-- [Matplotlib](https://matplotlib.org/stable/index.html)
-- [wxPython](https://www.wxpython.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/usage.html)
-- [seaborn](https://seaborn.pydata.org/introduction.html)
-
-#### Open source python projects
-
-- [SciencePlots](https://github.com/garrettj403/SciencePlots)
-- [matplotlib-stylesheets](https://github.com/dhaitz/matplotlib-stylesheets)
-- [squarify](https://github.com/laserson/squarify)
-
-#### Free software
-
-- [Inno Setup](https://jrsoftware.org/isinfo.php)
-- [Nuitka](https://nuitka.net/)
