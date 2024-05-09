@@ -2,6 +2,12 @@
 
 Last updated: 4 April 2024
 
+### QUICKSTART GUIDE
+
+1. Download the latest ERT.exe release from the right hand side panel.
+2. Download the example files and either (i) load a .workspace file or (ii) read in .aaa data files.
+3. Experiment with loading your own data and developing your own figures and signal processing routines.
+
 ### OVERVIEW
 
 This program is a graphical user interface implimentation of a data processing pipeline with a built-in visualization tool. It is intended to assist with selection, processing, scaling, and review of ground-motion record data. Although it was developed for earthquake time history data, it can be applied to other types of time history data, i.e., it's not just for earthquakes.
