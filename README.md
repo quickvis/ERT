@@ -37,8 +37,6 @@ You can add, edit, and delete processing steps and combine them into a data proc
 - Division
 - Fast Fourier Transformation
 - Floor Design Spectra Computation
-- FFT to Response Spectrum via Random Vibration Theory
-- FFT to Time Series via Random Vibration Theory
 - Integration
 - Inverse Fast Fourier Transformation
 - Konno Ohmachi Smoothing
@@ -47,6 +45,7 @@ You can add, edit, and delete processing steps and combine them into a data proc
 - Random Decrement Signature
 - Resampling
 - Response Spectrum Calculation
+- Response Spectrum to Time Series via iRVT
 - Sinc Interpolation
 - Spectral Scaling to Target Ordinate
 - Trimming
